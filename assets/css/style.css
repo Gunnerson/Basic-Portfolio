@@ -1,0 +1,106 @@
+body {
+    color: #777;
+    line-height: 20px;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+header {
+    background: #4aaaa5;
+    color: white;
+    padding: 10;
+    margin: 0;
+    float: left;
+}
+
+.navBar {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(214, 210, 210)
+    color: #777;
+}
+
+.top {
+    float: right;
+    padding: 10px;
+    list-style: none;
+    color: #777
+}
+
+.break {
+    float: right;
+    padding: 10px;
+    list-style: none;
+    color: #777
+}
+
+#contact {
+
+}
+
+.clearfix {
+
+}
+
+.name {
+    
+}
+
+.horizontalRef {
+
+}
+
+form {
+
+}
+
+.form {
+
+}
+
+./submit-name{
+
+}
+
+./submit-email {
+
+}
+
+./submit-message {
+    
+}
+
+.text {
+
+}
+
+.textBox {
+
+}
+
+.about {
+    color: grey;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img {
+    float: middle;
+    margin: 10px;
+    padding: 10px;
+}
+
+.verbiage {
+    overflow: auto;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    background: #777;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

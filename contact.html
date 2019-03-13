@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
+   <header>
+       <h1>Brandon Gunnerson</h1>
+   </header> 
+
+   <nav class="navBar">
+        <ul>
+            <li class="top"><a href="index.html" class="navLink">About</a></li>
+            <li class="break">|</li>
+            <li class="top"><a href="portfolio.html">Portfolio</a></li>
+            <li class="break">|</li>
+            <li class="top"><a href="contact.html" class="navLink">Contact</a></li>
+        </ul>
+    </nav>
+
+<section id="contact" class="clearfix">
+    <h2 class="name">Contact</h2>
+    <hr class="horizontalRef">
     
+    <h3>Name</h3>
+    <form class="form" action="/submit-name"><input type="text" class="textBox" required></form>
+
+    <h3>Email</h3>
+    <form class="form" action="/submit-email"><input type="text" class="textBox" required></form>
+
+    <h3>Message</h3>
+    <form action="/submit-message"><input type="text" class="textBox"></form>
+
+    <button class="button" type="submit">Submit</button>
+
+</section>
+
+<footer>BGunz &copy;</footer>
 </body>
 </html>
