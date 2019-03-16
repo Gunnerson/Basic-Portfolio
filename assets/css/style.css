@@ -1,56 +1,93 @@
+header {
+    background: #4aaaa5;
+    color: white;
+    padding: 10px;
+    
+}
+
 body {
     color: #777;
     line-height: 20px;
 }
 
-header {
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
-header {
-    background: #4aaaa5;
-    color: white;
-    padding: 10;
-    margin: 0;
-    float: left;
-}
-
 .navBar {
+    position: relative;
+    top: -60px;
+    right: 80px;
     margin: 0;
     padding: 0;
-    background-color: rgb(214, 210, 210)
-    color: #777;
 }
 
+h1 {
+}
+
+.break,
 .top {
     float: right;
     padding: 10px;
     list-style: none;
     color: #777
 }
+a {
+    color: #3a4660;
+    padding: 15px;
+    font-size: 20px;
+}
+.horizontalRef {
+    margin-bottom: 24px;
+    width: 100%;
+    color: black;
+    position: relative;
+}
 
-.break {
-    float: right;
+.list {
+    list-style-type: none;
+    float:right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+section {
+    width: 65%;
+    margin: auto;
+    background: #f1f0ee;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #f1f0ee;
+    border-width: 1px;
+    position: relative;
+}
+
+#headshot {
+    margin: 10px;
     padding: 10px;
-    list-style: none;
-    color: #777
+    float: left;
 }
 
-#contact {
-
-}
-
-.clearfix {
-
+footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: #3a4660;
+    border-top: 8px solid #4aaaa5;
+    background: #777;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .name {
-    
-}
-
-.horizontalRef {
-
+    float: left; 
 }
 
 form {
@@ -62,7 +99,6 @@ form {
 }
 
 ./submit-name{
-
 }
 
 ./submit-email {
@@ -70,7 +106,7 @@ form {
 }
 
 ./submit-message {
-    
+
 }
 
 .text {
@@ -81,26 +117,20 @@ form {
 
 }
 
-.about {
-    color: grey;
-    margin: 20px;
-    padding: 20px;
-}
-
-.img {
-    float: middle;
+.button {
     margin: 10px;
-    padding: 10px;
 }
 
-.verbiage {
-    overflow: auto;
-}
-
-footer {
-    border-top: 8px solid #4aaaa5;
-    background: #777;
+/* Portfolio */
+#box {
+    position: absolute;
+    bottom: 0px;
+    background: #4AAAA5;
     color: white;
-    padding: 20px;
     text-align: center;
-}
+    width: 200px;
+    /* height: 40px; */
+    /* border: solid 1px blue;  */
+    /* padding-top: -5px;
+    padding-bottom: -5px; */
+  }
